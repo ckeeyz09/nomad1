@@ -17,12 +17,6 @@
 <% end %>
 <br>
 <br>
-<%= form_for [@post, @comment], :html => {:id => "new_comment"} do |f| %>
-     <%= f.label "comment" %>:
-     <%= f.text_field :description, class:"form-control", required: true %>
-     <br>
-     <%= f.submit "save post", class:"btn btn-primary" %>
-<% end %>
 <br />
 <div class="container">
 <div class="row">
